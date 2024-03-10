@@ -12,14 +12,28 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.theduc.educationapplication.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_study"
+        android:name="com.theduc.educationapplication.ui.study.StudyFragment"
+        android:label="@string/title_study"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.theduc.educationapplication.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_calendar"
+        android:name="com.theduc.educationapplication.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_utilites"
+        android:name="com.theduc.educationapplication.ui.utilities.UtilitiesFragment"
+        android:label="@string/title_utilities"
+        tools:layout="@layout/fragment_utilities" />
+
+    <fragment
+        android:id="@+id/navigation_personal"
+        android:name="com.theduc.educationapplication.ui.personal.PersonalFragment"
+        android:label="@string/title_personal"
+        tools:layout="@layout/fragment_personal" />
+
+
 </navigation>
