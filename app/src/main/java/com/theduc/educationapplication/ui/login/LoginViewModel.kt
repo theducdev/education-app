@@ -22,21 +22,18 @@ class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel()
     val loginResult: LiveData<LoginResult> = _loginResult
 
     fun login(username: String, password: String) {
-        // can be launched in a separate asynchronous job
-        val result = loginRepository.login(username, password)
-
-        if (result is Result.Success) {
-            _loginResult.value =
-                LoginResult(success = LoggedInUserView(displayName = result.data.displayName))
-
-        } else {
-            _loginResult.value = LoginResult(error = R.string.login_failed)
+        // Gọi phương thức login từ LoginRepository
+        loginRepository.login(username, password) { result ->
+            // Xử lý kết quả đăng nhập
+            if (result is Result.Success) {
+                // Nếu đăng nhập thành công, cập nhật LiveData với kết quả thành công
+                _loginResult.value = LoginResult(success = LoggedInUserView(displayName = result.data.displayName))
+            } else {
+                // Nếu đăng nhập thất bại, cập nhật LiveData với kết quả lỗi
+                _loginResult.value = LoginResult(error = R.string.login_failed)
+            }
         }
     }
-
-
-
-
 
 
     fun loginDataChanged(username: String, password: String) {
@@ -62,4 +59,5 @@ class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel()
     private fun isPasswordValid(password: String): Boolean {
         return password.length > 5
     }
+
 }
