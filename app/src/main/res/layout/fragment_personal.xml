@@ -5,17 +5,26 @@
     android:layout_height="match_parent"
     tools:context=".ui.personal.PersonalFragment">
 
-    <TextView
+
+
+<!--    <Button-->
+<!--        android:id="@+id/logOutBT"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:onClick="logout"-->
+<!--        android:text="Log out" />-->
+    
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/logOutBT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="logout"
-        android:text="Log out" />
+        <ListView
+            android:id="@+id/buttonLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </FrameLayout>

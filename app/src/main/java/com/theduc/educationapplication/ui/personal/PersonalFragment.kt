@@ -7,10 +7,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
-import com.theduc.educationapplication.MainActivity
-import com.theduc.educationapplication.R
-import com.theduc.educationapplication.databinding.ActivityLoginBinding
 import com.theduc.educationapplication.databinding.FragmentPersonalBinding
 import com.theduc.educationapplication.ui.login.LoginActivity
 
@@ -30,11 +26,14 @@ class PersonalFragment : Fragment() {
     ): View? {
 
         binding = FragmentPersonalBinding.inflate(layoutInflater)
-        val logOutBT = binding.logOutBT
 
-        logOutBT.setOnClickListener {
-            logout()
-        }
+        val buttonListView = binding.buttonLV
+        val buttonNames = listOf("Thông tin cá nhân", "Đổi mật khẩu", "Đăng xuất") // Danh sách tên các nút
+
+        val adapter = ButtonAdapter(requireContext(), buttonNames)
+
+
+        buttonListView.adapter = adapter
         return binding.root
     }
 
@@ -42,6 +41,7 @@ class PersonalFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         personalViewModel = ViewModelProvider(this).get(PersonalViewModel::class.java)
         // TODO: Use the ViewModel
+
 
 
     }
