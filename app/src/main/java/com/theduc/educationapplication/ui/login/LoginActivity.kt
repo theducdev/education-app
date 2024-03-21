@@ -19,6 +19,7 @@ import com.theduc.educationapplication.MainActivity
 import com.theduc.educationapplication.databinding.ActivityLoginBinding
 
 import com.theduc.educationapplication.R
+import com.theduc.educationapplication.ui.signup.SignUpActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -35,6 +36,16 @@ class LoginActivity : AppCompatActivity() {
         val password = binding.password
         val login = binding.login
         val loading = binding.loading
+        val signup = binding.signup
+
+        if (signup != null) {
+            signup.setOnClickListener {
+                startActivity(Intent(this@LoginActivity, SignUpActivity::class.java ))
+                finish()
+            }
+        }
+
+
 
         loginViewModel = ViewModelProvider(this, LoginViewModelFactory())
             .get(LoginViewModel::class.java)
