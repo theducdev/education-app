@@ -1,4 +1,4 @@
-package com.theduc.educationapplication.ui.personal
+package com.theduc.educationapplication.ui.utilities
 
 import android.app.Activity
 import android.content.Context
@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import com.theduc.educationapplication.R
 import com.theduc.educationapplication.ui.login.LoginActivity
+import com.theduc.educationapplication.ui.personal.ChangePasswordActivity
 
 class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
     ArrayAdapter<String>(context, R.layout.button_item, buttonNames) {
@@ -29,22 +30,9 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
         buttonItem?.setOnClickListener {
             // Xử lý logic khi người dùng nhấn vào nút ở vị trí position
             when(position) {
-                0 -> {
-                    val informationIntent = Intent(context, InformationActivity::class.java)
-                    context.startActivity(informationIntent)
-                    (context as Activity).finish()
-                }
-                1 -> {
-                    val changePasswordIntent = Intent(context, ChangePasswordActivity::class.java)
-                    context.startActivity(changePasswordIntent)
-                    (context as Activity).finish()
-                }
-                2 -> {
-                    val logoutIntent = Intent(context, LoginActivity::class.java)
-                    context.startActivity(logoutIntent)
-                    (context as Activity).finish()
-                }
+
             }
+
         }
 
         return view!!

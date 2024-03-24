@@ -51,5 +51,4 @@ class PersonalFragment : Fragment() {
         startActivity(intent)
         requireActivity().finish()
     }
-
 }

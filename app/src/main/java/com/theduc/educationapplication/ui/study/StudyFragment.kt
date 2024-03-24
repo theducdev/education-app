@@ -7,8 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.theduc.educationapplication.R
+import com.theduc.educationapplication.databinding.FragmentPersonalBinding
+import com.theduc.educationapplication.databinding.FragmentStudyBinding
+import com.theduc.educationapplication.ui.study.ButtonAdapter
 
 class StudyFragment : Fragment() {
+
+//    private lateinit var personalViewModel: PersonalViewModel
+    private lateinit var binding: FragmentStudyBinding
 
     companion object {
         fun newInstance() = StudyFragment()
@@ -20,7 +26,16 @@ class StudyFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_study, container, false)
+        binding = FragmentStudyBinding.inflate(layoutInflater)
+
+        val buttonListView = binding.buttonLV
+        val buttonNames = listOf("Lớp tín chỉ", "Lớp hành chính", "Kết quả học tập", "Tiến trình học tập", "Thời khoá biểu", "Điểm rèn luyện") // Danh sách tên các nút
+
+        val adapter = ButtonAdapter(requireContext(), buttonNames)
+
+
+        buttonListView.adapter = adapter
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

@@ -15,7 +15,7 @@
         android:id="@+id/navigation_study"
         android:name="com.theduc.educationapplication.ui.study.StudyFragment"
         android:label="@string/title_study"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_study" />
 
     <fragment
         android:id="@+id/navigation_calendar"

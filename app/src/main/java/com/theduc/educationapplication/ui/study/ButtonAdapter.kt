@@ -1,4 +1,4 @@
-package com.theduc.educationapplication.ui.personal
+package com.theduc.educationapplication.ui.study
 
 import android.app.Activity
 import android.content.Context
@@ -28,23 +28,7 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
         // Xử lý sự kiện khi người dùng nhấn vào nút
         buttonItem?.setOnClickListener {
             // Xử lý logic khi người dùng nhấn vào nút ở vị trí position
-            when(position) {
-                0 -> {
-                    val informationIntent = Intent(context, InformationActivity::class.java)
-                    context.startActivity(informationIntent)
-                    (context as Activity).finish()
-                }
-                1 -> {
-                    val changePasswordIntent = Intent(context, ChangePasswordActivity::class.java)
-                    context.startActivity(changePasswordIntent)
-                    (context as Activity).finish()
-                }
-                2 -> {
-                    val logoutIntent = Intent(context, LoginActivity::class.java)
-                    context.startActivity(logoutIntent)
-                    (context as Activity).finish()
-                }
-            }
+
         }
 
         return view!!

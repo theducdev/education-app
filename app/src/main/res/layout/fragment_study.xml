@@ -5,9 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.study.StudyFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/buttonLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </FrameLayout>

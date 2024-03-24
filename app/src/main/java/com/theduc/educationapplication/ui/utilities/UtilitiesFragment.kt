@@ -7,8 +7,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.theduc.educationapplication.R
+import com.theduc.educationapplication.databinding.FragmentPersonalBinding
+import com.theduc.educationapplication.databinding.FragmentUtilitiesBinding
 
 class UtilitiesFragment : Fragment() {
+
+    private lateinit var binding: FragmentUtilitiesBinding
 
     companion object {
         fun newInstance() = UtilitiesFragment()
@@ -20,7 +24,16 @@ class UtilitiesFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_utilities, container, false)
+        binding = FragmentUtilitiesBinding.inflate(layoutInflater)
+
+        val buttonListView = binding.buttonLV
+        val buttonNames = listOf("Tin tức", "Dịch vụ một cửa", "Khảo sát trực tuyến", "Phản hồi", "Văn bản hướng dẫn", "Giới thiệu") // Danh sách tên các nút
+
+        val adapter = ButtonAdapter(requireContext(), buttonNames)
+
+
+        buttonListView.adapter = adapter
+        return binding.root
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
