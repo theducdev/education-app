@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.theduc.educationapplication.databinding.ActivityMainBinding
+import com.theduc.educationapplication.ui.calendar.CalendarFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -30,7 +31,16 @@ class MainActivity : AppCompatActivity() {
                 R.id.navigation_utilites, R.id.navigation_personal
             )
         )
+
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        if (intent.getBooleanExtra("openCalendarFragment", false)) {
+            // Xoá HomeFragment khỏi stack để tránh lỗi không bấm được vào biểu tượng home
+            navController.popBackStack(R.id.navigation_home, true)
+            // Nếu có, mở CalendarFragment
+            navController.navigate(R.id.navigation_calendar)
+        }
     }
+
 }
