@@ -1,0 +1,32 @@
+
+
+
+{
+  "studyVideo": {
+    "video1": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Giới thiệu chung + Trao đổi",
+      "link": "https://www.youtube.com/embed/DdgTeuaenEs"
+    },
+    "video2": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Xác định yêu cầu",
+      "link": "https://www.youtube.com/embed/5v1EGORDuLk"
+    },
+    "video3": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Hướng dẫn bài tập java + sql, góp ý, xây dựng usecase diagram",
+      "link": "https://www.youtube.com/embed/4I2Hqysl2Hw"
+    },
+    "video4": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Góp ý, xây dựng usecase diagram (phần 2)",
+      "link": "https://www.youtube.com/embed/SLn3C5a0jdg"
+    },
+    "video5": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Góp ý, xây dựng tài liệu đặc tả SRS",
+      "link": "https://www.youtube.com/embed/GFbGJIGPFOM"
+    },
+    "video6": {
+      "name": "[Nhập môn Công nghệ phần mềm_PTIT] Phân tích phần mềm",
+      "link": "https://www.youtube.com/embed/ZexBceqSxrY"
+    }
+
+  }
+}

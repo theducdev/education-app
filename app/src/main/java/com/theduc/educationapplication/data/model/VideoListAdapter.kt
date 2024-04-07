@@ -20,7 +20,7 @@ class VideoListAdapter(private val videos: List<Video>, private val onVideoClick
         holder.titleView.text = video.title
 
         // Load thumbnail image (optional)
-        // ...
+
 
         holder.itemView.setOnClickListener {
             onVideoClick(video)
