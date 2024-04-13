@@ -68,6 +68,7 @@ dependencies {
 
     // load thumnails
     implementation ("com.github.bumptech.glide:glide:4.13.2")
+    implementation("androidx.activity:activity:1.8.0")
 
 
     testImplementation("junit:junit:4.13.2")
