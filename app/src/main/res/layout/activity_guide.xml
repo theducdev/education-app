@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:text="HƯỚNG DẪN"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="1. Xem Thời Khóa Biểu: Trên giao diện chính, chọn mục 'Thời Khóa Biểu'. Hệ thống sẽ hiển thị thời khóa biểu của bạn theo ngày, tuần hoặc tháng.\n 2. Xem Thông Tin Cá Nhân: Đăng nhập vào tài khoản của bạn. Truy cập vào phần 'Thông Tin Cá Nhân' hoặc 'Hồ Sơ Cá Nhân'. Bạn sẽ thấy thông tin cá nhân của mình như tên, mã số sinh viên (nếu có), email, số điện thoại, v.v.\n 3. Cập Nhật Thông Tin Cá Nhân: Trong phần 'Thông Tin Cá Nhân', chọn 'Chỉnh Sửa'. Cập nhật thông tin mới của bạn như địa chỉ, số điện thoại, v.v. Sau khi hoàn thành, nhấn 'Lưu' để lưu lại các thay đổi.\n 4. Đổi Mật Khẩu: Trong phần 'Thông Tin Cá Nhân', chọn 'Đổi Mật Khẩu'. Nhập mật khẩu cũ và mật khẩu mới của bạn. Xác nhận mật khẩu mới và nhấn 'Xác Nhận' để hoàn tất quá trình đổi mật khẩu.\n 5. Xem Thông Tin Lớp: Trên giao diện chính, chọn mục 'Thông Tin Lớp'. Bạn sẽ thấy thông tin về lớp học của mình như tên lớp, giáo viên chủ nhiệm, v.v.\n 6. Xem Thông Tin Tiến Trình Học Tập: Trong phần 'Thông Tin Cá Nhân', có thể có mục 'Tiến Trình Học Tập' hoặc 'Học Lực'. Ứng dụng sẽ hiển thị tiến trình học tập của bạn như số tín chỉ đã tích lũy, số tín chỉ cần hoàn thành, v.v.\n 7. Xem Thông Tin Kết Quả Học Tập (Điểm): Trong ph'Thông Tin Cá Nhân', chọn 'Kết Quả Học Tập' hoặc 'Bảng Điểm'. Bạn sẽ thấy thông tin về các điểm số của mình theo từng môn học.\n 8. Thư Viện Bài Giảng: Trên giao diện chính, chọn mục 'Thư Viện Bài Giảng' hoặc 'Tài Liệu'. Ứng dụng sẽ cung cấp danh sách các bài giảng, tài liệu học tập có sẵn để bạn tải về hoặc xem trực tuyến. Đây là hướng dẫn sử dụng cơ bản cho ứng dụng. Hãy đảm bảo rằng bạn đã đăng nhập vào tài khoản của mình để truy cập đầy đủ các chức năng và thông tin."
+        />
+
+    </ScrollView>
+
+
+
+</LinearLayout>

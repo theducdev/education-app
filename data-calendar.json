@@ -1,0 +1,1358 @@
+{
+  "classes": {
+    "20240115": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 15:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 14:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "10:00 - 17:00"
+      }
+    },
+    "20240116": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240117": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 13:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 14:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240118": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "8:00 - 16:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 16:00"
+      }
+    },
+    "20240119": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 13:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 15:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "8:00 - 13:00"
+      }
+    },
+    "20240120": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240122": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "11:00 - 15:00"
+      }
+    },
+    "20240123": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 16:00"
+      }
+    },
+    "20240124": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240125": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 14:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 13:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240126": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 16:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240127": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 14:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 15:00"
+      }
+    },
+    "20240129": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 17:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 14:00"
+      }
+    },
+    "20240130": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 14:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 17:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240131": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "9:00 - 15:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 15:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 13:00"
+      },
+      "class4": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240201": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 13:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "9:00 - 16:00"
+      }
+    },
+    "20240202": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 13:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 15:00"
+      }
+    },
+    "20240203": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 14:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240204": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 15:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "10:00 - 15:00"
+      },
+      "class4": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240205": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "11:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 15:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240206": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240207": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 16:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 16:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240208": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 16:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 16:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240209": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 16:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240210": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 15:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 13:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 14:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240212": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240213": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 15:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 15:00"
+      }
+    },
+    "20240214": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240215": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240216": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "9:00 - 14:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 13:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 15:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "12:00 - 13:00"
+      }
+    },
+    "20240217": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240219": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 17:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "10:00 - 14:00"
+      }
+    },
+    "20240220": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 17:00"
+      }
+    },
+    "20240221": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 15:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 17:00"
+      }
+    },
+    "20240222": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 13:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "10:00 - 13:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "9:00 - 13:00"
+      }
+    },
+    "20240223": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 16:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 14:00"
+      },
+      "class4": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 15:00"
+      }
+    },
+    "20240224": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 13:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 14:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240226": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 16:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240227": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 14:00"
+      }
+    },
+    "20240228": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 16:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240229": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240301": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "9:00 - 17:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 16:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 14:00"
+      }
+    },
+    "20240302": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240304": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 13:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 15:00"
+      }
+    },
+    "20240305": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 17:00"
+      }
+    },
+    "20240306": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "10:00 - 13:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      },
+      "class4": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 14:00"
+      }
+    },
+    "20240308": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 15:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 15:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240309": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240311": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "10:00 - 17:00"
+      }
+    },
+    "20240312": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 14:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "9:00 - 13:00"
+      }
+    },
+    "20240313": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240315": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 15:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "9:00 - 17:00"
+      }
+    },
+    "20240316": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 15:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 15:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 15:00"
+      }
+    },
+    "20240318": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240319": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 14:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 17:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 14:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "9:00 - 14:00"
+      }
+    },
+    "20240320": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240322": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "11:00 - 14:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 17:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240323": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 16:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 15:00"
+      }
+    },
+    "20240325": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 16:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "12:00 - 15:00"
+      }
+    },
+    "20240326": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 17:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "9:00 - 16:00"
+      },
+      "class4": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 14:00"
+      }
+    },
+    "20240327": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240329": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 16:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240330": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 17:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240401": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240402": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240403": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 16:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 13:00"
+      }
+    },
+    "20240404": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 14:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240405": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 13:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 17:00"
+      }
+    },
+    "20240406": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 15:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 15:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 17:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240407": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 15:00"
+      }
+    },
+    "20240408": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "9:00 - 14:00"
+      }
+    },
+    "20240409": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 13:00"
+      }
+    },
+    "20240410": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240411": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240412": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 13:00"
+      }
+    },
+    "20240413": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240414": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 14:00"
+      }
+    },
+    "20240415": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      }
+    },
+    "20240416": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240417": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 16:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 14:00"
+      }
+    },
+    "20240418": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 14:00"
+      }
+    },
+    "20240419": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 15:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 14:00"
+      }
+    },
+    "20240420": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 13:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 16:00"
+      },
+      "class4": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 14:00"
+      }
+    },
+    "20240421": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 15:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 13:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "11:00 - 15:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 15:00"
+      }
+    },
+    "20240422": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 17:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "11:00 - 17:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240423": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 13:00"
+      },
+      "class3": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 15:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 13:00"
+      }
+    },
+    "20240424": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 15:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 17:00"
+      }
+    },
+    "20240425": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "12:00 - 15:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240426": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 17:00"
+      }
+    },
+    "20240427": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "12:00 - 15:00"
+      }
+    },
+    "20240428": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 15:00"
+      }
+    },
+    "20240429": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "9:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240430": {
+      "class1": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 16:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240501": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 13:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 15:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "10:00 - 15:00"
+      }
+    },
+    "20240502": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 15:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 13:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 13:00"
+      },
+      "class4": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 17:00"
+      }
+    },
+    "20240503": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "11:00 - 13:00"
+      },
+      "class2": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "12:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "9:00 - 13:00"
+      },
+      "class4": {
+        "name": "Lập trình web",
+        "time": "10:00 - 16:00"
+      }
+    },
+    "20240504": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 16:00"
+      }
+    },
+    "20240506": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 17:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "9:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "10:00 - 16:00"
+      }
+    },
+    "20240507": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240508": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 16:00"
+      }
+    },
+    "20240509": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 17:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "12:00 - 16:00"
+      },
+      "class3": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 14:00"
+      }
+    },
+    "20240510": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 16:00"
+      }
+    },
+    "20240511": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 15:00"
+      }
+    },
+    "20240513": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "10:00 - 17:00"
+      }
+    },
+    "20240514": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "10:00 - 14:00"
+      }
+    },
+    "20240515": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "10:00 - 13:00"
+      }
+    },
+    "20240516": {
+      "class1": {
+        "name": "Lập trình web",
+        "time": "12:00 - 13:00"
+      }
+    },
+    "20240517": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "8:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 17:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "9:00 - 16:00"
+      },
+      "class4": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "9:00 - 15:00"
+      }
+    },
+    "20240518": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 14:00"
+      },
+      "class2": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      }
+    },
+    "20240520": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "11:00 - 17:00"
+      },
+      "class2": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "8:00 - 17:00"
+      }
+    },
+    "20240521": {
+      "class1": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "10:00 - 14:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "10:00 - 17:00"
+      },
+      "class3": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 16:00"
+      }
+    },
+    "20240522": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "10:00 - 15:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "11:00 - 14:00"
+      },
+      "class3": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "8:00 - 13:00"
+      }
+    },
+    "20240523": {
+      "class1": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "9:00 - 16:00"
+      },
+      "class2": {
+        "name": "Lập trình web",
+        "time": "8:00 - 13:00"
+      },
+      "class3": {
+        "name": "Cơ sở dữ liệu phân tán",
+        "time": "10:00 - 17:00"
+      },
+      "class4": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "11:00 - 13:00"
+      }
+    },
+    "20240524": {
+      "class1": {
+        "name": "An toàn và bảo mật hệ thống thông tin",
+        "time": "12:00 - 13:00"
+      }
+    },
+    "20240525": {
+      "class1": {
+        "name": "Kỹ năng thuyết trình",
+        "time": "9:00 - 13:00"
+      },
+      "class2": {
+        "name": "Nhập môn trí tuệ nhân tạo",
+        "time": "8:00 - 14:00"
+      },
+      "class3": {
+        "name": "Lập trình web",
+        "time": "8:00 - 13:00"
+      },
+      "class4": {
+        "name": "Nhập môn công nghệ phần mềm",
+        "time": "8:00 - 16:00"
+      }
+    }
+  }
+}
