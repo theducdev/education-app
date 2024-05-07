@@ -29,7 +29,7 @@ class StudyFragment : Fragment() {
         binding = FragmentStudyBinding.inflate(layoutInflater)
 
         val buttonListView = binding.buttonLV
-        val buttonNames = listOf("Lớp tín chỉ", "Lớp hành chính", "Kết quả học tập", "Tiến trình học tập", "Thời khoá biểu", "Thư viện học tập") // Danh sách tên các nút
+        val buttonNames = listOf("Lớp tín chỉ", "Lớp hành chính", "Kết quả học tập", "Thời khoá biểu", "Thư viện học tập") // Danh sách tên các nút
 
         val adapter = ButtonAdapter(requireContext(), buttonNames)
 

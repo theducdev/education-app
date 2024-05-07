@@ -34,18 +34,29 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
             // Xử lý logic khi người dùng nhấn vào nút ở vị trí position
             when(position) {
 
+                0 -> {
+                    val subjectMemberIntent = Intent(context, SubjectMemberActivity::class.java)
+                    context.startActivity(subjectMemberIntent)
+                    (context as Activity).finish()
+                }
                 1 -> {
                     val classMemberIntent = Intent(context, ClassMemberActivity::class.java)
                     context.startActivity(classMemberIntent)
                     (context as Activity).finish()
                 }
+                2 -> {
+                    val studyResultIntent = Intent(context, SubjectResultActivity::class.java)
+                    context.startActivity(studyResultIntent)
+                    (context as Activity).finish()
+                }
 
-                4 -> {
+
+                3 -> {
                     val intent = Intent(context, MainActivity::class.java)
                     intent.putExtra("openCalendarFragment", true)
                     context.startActivity(intent)
                 }
-                5 -> {
+                4 -> {
                     val libraryIntent = Intent(context, LibraryActivity::class.java)
                     context.startActivity(libraryIntent)
                     (context as Activity).finish()

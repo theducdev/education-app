@@ -2,7 +2,7 @@ package com.theduc.educationapplication.ui.study
 
 import android.content.Intent
 import android.os.Bundle
-import android.service.voice.VoiceInteractionSession.VisibleActivityCallback
+
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -28,7 +28,9 @@ import com.theduc.educationapplication.R
 import com.theduc.educationapplication.data.model.Video
 import com.theduc.educationapplication.data.model.VideoListAdapter
 import androidx.appcompat.app.AlertDialog
+
 import com.google.firebase.auth.FirebaseAuth
+
 
 
 class LibraryActivity : AppCompatActivity() {
@@ -44,7 +46,9 @@ class LibraryActivity : AppCompatActivity() {
 
     private lateinit var curentVideos: MutableList<Video> // lưu video hiện tại hiển thị
     private lateinit var firebaseVideos: MutableList<Video> // lưu tất cả những video có trong firebase
+
     private lateinit var firebaseIdTeachers: MutableList<String> // lưu tất cả những idTeacher có trong firebase
+
 
 
 
@@ -62,7 +66,9 @@ class LibraryActivity : AppCompatActivity() {
 
         curentVideos = mutableListOf()
         firebaseVideos = mutableListOf()
+
         firebaseIdTeachers = mutableListOf()
+
 
         // Set up recycler view
         adapter = VideoListAdapter(curentVideos) { video ->
@@ -78,7 +84,9 @@ class LibraryActivity : AppCompatActivity() {
         val database = FirebaseDatabase.getInstance()
         val videosRef = database.getReference().child("studyVideo")
 
+
         val idTeacherRef = database.getReference().child("idTeacher")
+
 
 
         // Add ValueEventListener to videosRef
@@ -116,6 +124,7 @@ class LibraryActivity : AppCompatActivity() {
             }
         }
 
+
         // Add ValueEventListener to videosRef
         idTeacherRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
@@ -124,11 +133,9 @@ class LibraryActivity : AppCompatActivity() {
                     val id = idData?.get("id") as String
                     firebaseIdTeachers.add(id)
                 }
-                Log.d("test", firebaseIdTeachers.toString())
                 adapter?.notifyDataSetChanged()
 
                 val currentUser = FirebaseAuth.getInstance().currentUser
-                Log.d("currentUser", currentUser?.uid.toString())
 
                 if (currentUser != null && currentUser.uid in firebaseIdTeachers) {
                     addNewVideoButton.visibility = View.VISIBLE
@@ -143,6 +150,7 @@ class LibraryActivity : AppCompatActivity() {
                 Toast.makeText(this@LibraryActivity, "Failed to load videos", Toast.LENGTH_SHORT).show()
             }
         })
+
 
         // Xử lý sự kiện click nút Thêm Video
         addNewVideoButton.setOnClickListener { showAddVideoDialog() }

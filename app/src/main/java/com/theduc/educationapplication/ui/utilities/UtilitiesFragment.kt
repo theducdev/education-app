@@ -27,7 +27,9 @@ class UtilitiesFragment : Fragment() {
         binding = FragmentUtilitiesBinding.inflate(layoutInflater)
 
         val buttonListView = binding.buttonLV
+
         val buttonNames = listOf("Tin tức", "Khảo sát trực tuyến", "Phản hồi", "Văn bản hướng dẫn", "Giới thiệu") // Danh sách tên các nút
+
 
         val adapter = ButtonAdapter(requireContext(), buttonNames)
 

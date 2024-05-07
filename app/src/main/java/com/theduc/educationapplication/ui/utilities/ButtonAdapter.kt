@@ -37,6 +37,7 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
                     (context as Activity).finish()
                 }
 
+
                 2 -> {
                     val feedBackIntent = Intent(context, FeedbackActivity::class.java)
                     context.startActivity(feedBackIntent)
@@ -57,6 +58,7 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
                     (context as Activity).finish()
 
                 }
+
             }
 
         }
