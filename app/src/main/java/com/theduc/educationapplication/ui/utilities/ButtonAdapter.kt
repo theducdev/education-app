@@ -38,21 +38,21 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
                 }
 
 
-                2 -> {
+                1 -> {
                     val feedBackIntent = Intent(context, FeedbackActivity::class.java)
                     context.startActivity(feedBackIntent)
                     (context as Activity).finish()
 
                 }
 
-                3 -> {
+                2 -> {
                     val guideIntent = Intent(context, GuideActivity::class.java)
                     context.startActivity(guideIntent)
                     (context as Activity).finish()
 
                 }
 
-                4 -> {
+                3 -> {
                     val introduceIntent = Intent(context, IntroduceActivity::class.java)
                     context.startActivity(introduceIntent)
                     (context as Activity).finish()

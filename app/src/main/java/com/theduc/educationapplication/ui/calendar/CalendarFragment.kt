@@ -62,7 +62,6 @@ class CalendarFragment : Fragment() {
 
             val dateNodeRef = classDataRef.child(selectedDate)
 
-
             // Read data from Firebase using a ValueEventListener
             dateNodeRef.addValueEventListener(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {

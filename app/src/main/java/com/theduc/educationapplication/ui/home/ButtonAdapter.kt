@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import com.theduc.educationapplication.R
 import com.theduc.educationapplication.ui.login.LoginActivity
+import com.theduc.educationapplication.ui.utilities.FeedbackActivity
+import com.theduc.educationapplication.ui.utilities.GuideActivity
+import com.theduc.educationapplication.ui.utilities.IntroduceActivity
+import com.theduc.educationapplication.ui.utilities.NewsActivity
 
 class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
     ArrayAdapter<String>(context, R.layout.button_item, buttonNames) {
@@ -29,6 +33,33 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
         buttonItem?.setOnClickListener {
             // Xử lý logic khi người dùng nhấn vào nút ở vị trí position
             when(position) {
+                0 -> {
+                    val newsIntent = Intent(context, NewsActivity::class.java)
+                    context.startActivity(newsIntent)
+                    (context as Activity).finish()
+                }
+
+
+                1 -> {
+                    val feedBackIntent = Intent(context, FeedbackActivity::class.java)
+                    context.startActivity(feedBackIntent)
+                    (context as Activity).finish()
+
+                }
+
+                2 -> {
+                    val guideIntent = Intent(context, GuideActivity::class.java)
+                    context.startActivity(guideIntent)
+                    (context as Activity).finish()
+
+                }
+
+                3 -> {
+                    val introduceIntent = Intent(context, IntroduceActivity::class.java)
+                    context.startActivity(introduceIntent)
+                    (context as Activity).finish()
+
+                }
 
             }
         }
