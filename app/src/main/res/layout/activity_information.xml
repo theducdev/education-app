@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/fragment_vertical_margin"
     android:padding="16dp"
     tools:context=".ui.personal.InformationActivity">
 
@@ -130,7 +131,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="Quay lại"
-                    android:textColorHint="@color/white"
                     android:layout_gravity="fill_vertical"
                     android:id="@+id/quay_lai"
                     />
@@ -140,7 +140,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:hint="Cập nhật"
-                    android:textColorHint="@color/white"
                     android:layout_gravity="fill_vertical"
                     android:id="@+id/cap_nhat" />
 

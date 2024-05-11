@@ -1,6 +1,7 @@
 package com.theduc.educationapplication
 
 import android.os.Bundle
+import android.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -20,19 +21,21 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         val navView: BottomNavigationView = binding.navView
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_home, R.id.navigation_study, R.id.navigation_calendar,
-                R.id.navigation_utilites, R.id.navigation_personal
-            )
-        )
+//        val appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.navigation_home, R.id.navigation_study, R.id.navigation_calendar,
+//                R.id.navigation_utilites, R.id.navigation_personal
+//            )
+//        )
 
-        setupActionBarWithNavController(navController, appBarConfiguration)
+//        setupActionBarWithNavController(navController, appBarConfiguration)
+
         navView.setupWithNavController(navController)
 
         if (intent.getBooleanExtra("openCalendarFragment", false)) {

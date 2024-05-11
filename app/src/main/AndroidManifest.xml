@@ -39,9 +39,6 @@
             android:name=".ui.study.SubjectResultActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.study.StudyResultActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.study.CSDLPTActivity"
             android:exported="false" />
         <activity
@@ -51,8 +48,7 @@
             android:name=".ui.signup.SignUpActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
-            android:label="@string/title_activity_sign_up"
-            android:theme="@style/Theme.EducationApplication" />
+            android:label="@string/title_activity_sign_up" />
         <activity
             android:name=".ui.splash.SplashActivity"
             android:exported="true"></activity>

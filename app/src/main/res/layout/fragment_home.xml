@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/toolbar_height"
+    android:layout_margin="@dimen/fragment_vertical_margin"
     tools:context=".ui.home.HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:paddingBottom="100dp"
         android:orientation="vertical">
 
         <!-- Các thành phần giao diện khác -->
@@ -46,9 +46,9 @@
 
         <ListView
             android:id="@+id/buttonLV"
-            android:layout_width="match_parent"
-            android:layout_height="194dp"
             android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
             android:scrollbars="none" />
 
 

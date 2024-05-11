@@ -1,11 +1,12 @@
 <resources>
 
     <style name="Widget.Theme.EducationApplication.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/md_theme_onPrimary</item>
     </style>
 
     <style name="Widget.Theme.EducationApplication.ButtonBar.Fullscreen" parent="">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/md_theme_onPrimary</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
 </resources>
+

@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import com.theduc.educationapplication.R
 import com.theduc.educationapplication.ui.login.LoginActivity
+import com.theduc.educationapplication.ui.study.ClassMemberActivity
+import com.theduc.educationapplication.ui.study.LibraryActivity
+import com.theduc.educationapplication.ui.study.SubjectMemberActivity
+import com.theduc.educationapplication.ui.study.SubjectResultActivity
 import com.theduc.educationapplication.ui.utilities.FeedbackActivity
 import com.theduc.educationapplication.ui.utilities.GuideActivity
 import com.theduc.educationapplication.ui.utilities.IntroduceActivity
@@ -34,33 +38,22 @@ class ButtonAdapter(context: Context, private val buttonNames: List<String>) :
             // Xử lý logic khi người dùng nhấn vào nút ở vị trí position
             when(position) {
                 0 -> {
-                    val newsIntent = Intent(context, NewsActivity::class.java)
-                    context.startActivity(newsIntent)
+                    val subjectMemberIntent = Intent(context, SubjectMemberActivity::class.java)
+                    context.startActivity(subjectMemberIntent)
                     (context as Activity).finish()
                 }
 
-
                 1 -> {
-                    val feedBackIntent = Intent(context, FeedbackActivity::class.java)
-                    context.startActivity(feedBackIntent)
+                    val studyResultIntent = Intent(context, SubjectResultActivity::class.java)
+                    context.startActivity(studyResultIntent)
                     (context as Activity).finish()
-
                 }
 
                 2 -> {
-                    val guideIntent = Intent(context, GuideActivity::class.java)
-                    context.startActivity(guideIntent)
+                    val libraryIntent = Intent(context, LibraryActivity::class.java)
+                    context.startActivity(libraryIntent)
                     (context as Activity).finish()
-
                 }
-
-                3 -> {
-                    val introduceIntent = Intent(context, IntroduceActivity::class.java)
-                    context.startActivity(introduceIntent)
-                    (context as Activity).finish()
-
-                }
-
             }
         }
 
